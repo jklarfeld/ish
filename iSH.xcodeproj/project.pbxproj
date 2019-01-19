@@ -729,22 +729,22 @@
 				TargetAttributes = {
 					BB13F7CA200ACC31003D1C4D = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = CK5SXRTBR7;
+						DevelopmentTeam = WPNQ78GK47;
 						ProvisioningStyle = Automatic;
 					};
 					BB13F7D0200ACCA2003D1C4D = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = CK5SXRTBR7;
+						DevelopmentTeam = WPNQ78GK47;
 						ProvisioningStyle = Automatic;
 					};
 					BB13F7DB200AD81D003D1C4D = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = CK5SXRTBR7;
+						DevelopmentTeam = WPNQ78GK47;
 						ProvisioningStyle = Automatic;
 					};
 					BB792B4F1F96D90D00FFB7A4 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = CK5SXRTBR7;
+						DevelopmentTeam = WPNQ78GK47;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -754,7 +754,7 @@
 					};
 					BB88F48F2154760800A341FD = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = CK5SXRTBR7;
+						DevelopmentTeam = WPNQ78GK47;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -1181,7 +1181,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 44;
-				DEVELOPMENT_TEAM = CK5SXRTBR7;
+				DEVELOPMENT_TEAM = WPNQ78GK47;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1196,6 +1196,7 @@
 				ISH_LOG = "";
 				MESON_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/meson";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklarfeld.iSH;
 				SDKROOT = iphoneos;
 				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1223,7 +1224,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 44;
-				DEVELOPMENT_TEAM = CK5SXRTBR7;
+				DEVELOPMENT_TEAM = WPNQ78GK47;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1236,6 +1237,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ISH_LOG = "";
 				MESON_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/meson";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklarfeld.iSH;
 				SDKROOT = iphoneos;
 				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1299,7 +1301,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.ish.iSH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1357,7 +1358,6 @@
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = app.ish.iSH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1401,7 +1401,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.ish.iSH.FileProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1438,7 +1438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.ish.iSH.FileProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
